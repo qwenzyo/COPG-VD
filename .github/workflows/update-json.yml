@@ -12,7 +12,7 @@ on:
     inputs:
       product:
         description: 'flashstation product (device)'
-        default: 'comet_beta'
+        default: 'blazer'
       track:
         description: 'release track'
         type: choice
@@ -46,7 +46,7 @@ jobs:
       - name: Generate COPG-VD.json
         id: gen
         env:
-          PRODUCT: ${{ inputs.product || 'comet_beta' }}
+          PRODUCT: ${{ inputs.product || 'blazer' }}
           TRACK: ${{ inputs.track || 'canary' }}
         run: |
           python3 .github/scripts/update_copg_json.py \

@@ -29,7 +29,8 @@
 MODDIR=${0%/*}
 MODULE_ID="COPG-VD"
 BRANCH="main"
-REMOTE_URL="https://raw.githubusercontent.com/VD171/COPG-VD/$BRANCH/module/COPG-VD.json.example"
+REMOTE_URL="https://raw.githubusercontent.com/qwenzyo/COPG-VD/$BRANCH/module/COPG-VD.json.example"
+
 
 # Both are updated when both exist: /data/adb is what the module reads, the copy inside
 # the module directory is a convention of some setups and must not drift from it.
