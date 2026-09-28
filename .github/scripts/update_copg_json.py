@@ -13,7 +13,7 @@ Both images are EROFS and keep build.prop as plain text, so each member is infla
 the fly and the stream is dropped as soon as the props show up. Nothing touches the disk.
 
 Usage:
-    update_copg_json.py [--product blazer] [--track canary|beta|any]
+    update_copg_json.py [--product grizzly] [--track canary|beta|any]
                         [--json module/COPG-VD.json.example] [--readme README.md]
                         [--force] [--check-only]
 
@@ -69,7 +69,7 @@ DEFAULT_HEADER = [("Instructions", "Use strings on double-quotes only."),
                                    "it will be skipped."),
                   ("Strings extracted from", "")]
 # Fields no build.prop carries; kept from the current file (or these defaults).
-DEFAULT_STATIC = {"BOOTLOADER": "unknown", "BOARD": "blazer", "HARDWARE": "blazer"}
+DEFAULT_STATIC = {"BOOTLOADER": "unknown", "BOARD": "grizzly", "HARDWARE": "grizzly"}
 
 
 def log(msg):
@@ -365,7 +365,7 @@ def gh_output(**kwargs):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--product", default="blazer", help="flashstation product (device)")
+    ap.add_argument("--product", default="grizzly", help="flashstation product (device)")
     ap.add_argument("--track", default="canary", choices=("canary", "beta", "any"))
     ap.add_argument("--json", default="module/COPG-VD.json.example")
     ap.add_argument("--readme", default="README.md")
