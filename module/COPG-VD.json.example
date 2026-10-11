@@ -1,27 +1,25 @@
 {
-  "Strings extracted from": "https://dl.google.com/dl/android/aosp/grizzly-cd1a.260905.001.b1-factory-4ce23ec8.zip",
+  "Strings extracted from": "https://dl.google.com/dl/android/aosp/grizzly-cd1a.261005.003.b1-factory-32009371.zip",
+  "COPG-VD-Settings": [["spoof_version", "never"]],
   "COPG-VD": {
     "BRAND": "google",
     "DEVICE": "grizzly",
     "MANUFACTURER": "Google",
     "MODEL": "Pixel 11 Pro",
-    "FINGERPRINT": "google/grizzly/grizzly:17/CD1A.260905.001.B1/16238327:user/release-keys",
+    "FINGERPRINT": "google/grizzly/grizzly:17/CD1A.261005.003.B1/16433324:user/release-keys",
     "PRODUCT": "grizzly",
     "BOOTLOADER": "unknown",
     "BOARD": "grizzly",
     "HARDWARE": "grizzly",
-    "DISPLAY": "CD1A.260905.001.B1",
-    "ID": "CP1A.260905.001.B1",
-    "HOST": "r-36404f8caf3535e4-cjxv",
-    "INCREMENTAL": "16238327",
-    "TIMESTAMP": "1788313765",
+    "DISPLAY": "CD1A.261005.003.B1",
+    "ID": "CD1A.261005.003.B1",
+    "HOST": "r-36404f8caf3535e4-p9c2",
+    "INCREMENTAL": "16433324",
+    "TIMESTAMP": "1790231316",
     "PREVIEW_SDK": "0",
     "USER": "android-build",
     "SDK_FINGERPRINT": "REL",
-    "UUID": "gLL96CHtOlAgdtcPrgI0C8mxd_IjSiRrKthXKEd_mnE",
-    "SECURITY_PATCH": "2026-09-01"
-  },
-  "COPG-VD-Settings": {
-    "spoof_version": "never"
+    "UUID": "EQfp3XnXRuZu1HgWTSVw2Q62yrfd52HJahfYdbG0fOI",
+    "SECURITY_PATCH": "2026-10-05"
   }
 }
