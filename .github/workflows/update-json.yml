@@ -17,7 +17,7 @@ on:
         description: 'release track'
         type: choice
         options: [canary, beta, any]
-        default: canary
+        default: any
       force:
         description: 'rewrite even if the build did not change'
         type: boolean
@@ -47,7 +47,7 @@ jobs:
         id: gen
         env:
           PRODUCT: ${{ inputs.product || 'grizzly' }}
-          TRACK: ${{ inputs.track || 'canary' }}
+          TRACK: ${{ inputs.track || 'any' }}
         run: |
           python3 .github/scripts/update_copg_json.py \
             --product "$PRODUCT" --track "$TRACK" \
