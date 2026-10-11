@@ -11,29 +11,28 @@ If using this module and spoofing a working FingerPrint, using PlayIntegrityFix 
 * All fields are OPTIONAL. If some field is not provided, it will be skipped.  
 ```json
 {
-  "Instructions": "Use strings on double-quotes only.",
-  "Instructions": "All fields are OPTIONAL. If some field is not provided, it will be skipped.",
-  "Strings extracted from": "https://dl.google.com/developers/android/CANARY/images/factory/comet_beta-zp11.260821.010-factory-08a98446.zip",
+  "Strings extracted from": "https://dl.google.com/dl/android/aosp/grizzly-cd1a.261005.003.b1-factory-32009371.zip",
+  "COPG-VD-Settings": [["spoof_version", "never"]],
   "COPG-VD": {
     "BRAND": "google",
-    "DEVICE": "comet",
+    "DEVICE": "grizzly",
     "MANUFACTURER": "Google",
-    "MODEL": "Pixel 9 Pro Fold",
-    "FINGERPRINT": "google/comet_beta/comet:CANARY/ZP11.260821.010/16290768:user/release-keys",
-    "PRODUCT": "comet_beta",
+    "MODEL": "Pixel 11 Pro",
+    "FINGERPRINT": "google/grizzly/grizzly:17/CD1A.261005.003.B1/16433324:user/release-keys",
+    "PRODUCT": "grizzly",
     "BOOTLOADER": "unknown",
-    "BOARD": "comet",
-    "HARDWARE": "comet",
-    "DISPLAY": "ZP11.260821.010",
-    "ID": "ZP11.260821.010",
-    "HOST": "901e56a65b6b",
-    "INCREMENTAL": "16290768",
-    "TIMESTAMP": "1788897757",
-    "PREVIEW_SDK": "20260909",
+    "BOARD": "grizzly",
+    "HARDWARE": "grizzly",
+    "DISPLAY": "CD1A.261005.003.B1",
+    "ID": "CD1A.261005.003.B1",
+    "HOST": "r-36404f8caf3535e4-p9c2",
+    "INCREMENTAL": "16433324",
+    "TIMESTAMP": "1790231316",
+    "PREVIEW_SDK": "0",
     "USER": "android-build",
-    "SDK_FINGERPRINT": "dcead6233b738ebc908d5d77cd445f8b",
-    "UUID": "f7zpdMvb23VEDwaAnZZSj_0jpgXfIAILKODaGMBrmOA",
-    "SECURITY_PATCH": "2026-09-05"
+    "SDK_FINGERPRINT": "REL",
+    "UUID": "EQfp3XnXRuZu1HgWTSVw2Q62yrfd52HJahfYdbG0fOI",
+    "SECURITY_PATCH": "2026-10-05"
   }
 }
 ```
