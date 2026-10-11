@@ -37,7 +37,7 @@ concurrency:
 
 jobs:
   update:
-    if: github.repository == 'VD171/COPG-VD'
+    if: if: github.repository == 'VD171/COPG-VD' || github.repository == 'qwenzyo/COPG-VD'
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
